@@ -91,6 +91,5 @@ if __name__ == "__main__":
     type(test_class)
 
     test_class.led_on(1)
-        sleep(10)
-    test_class.led_off(1)
+    sleep(10)
     test_class.led_off(1)
