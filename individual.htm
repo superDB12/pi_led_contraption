@@ -1,0 +1,24 @@
+﻿<!DOCTYPE html>
+<html>
+<body>
+
+<h1 style="font-size:350%;text-align:center;">CONTROLLING LEDS FROM THE WEB</h1>
+<h2 style="text-align:center;">What wizardry is this?!?</h2>
+<ul>
+  <li><a href="file:///C:/Users/super/Documents/code/index.htm">HOME</a></li>
+  
+</ul>
+<button onclick="CreateOffButton()">LED 1</button>
+
+<script>
+function CreateOffButton() {
+    var x = document.createElement("BUTTON");
+    var t = document.createTextNode("OFF");
+    x.appendChild(t);
+    document.body.appendChild(x);
+}
+
+</script>
+
+</body>
+</html>
